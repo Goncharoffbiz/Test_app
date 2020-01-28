@@ -1,0 +1,179 @@
+
+<!-- We don't need full layout here, because this page will be parsed with Ajax-->
+<!-- Top Navbar-->
+<div class="navbar">
+  <div class="navbar-inner">
+    <div class="left"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Назад</span></a></div>
+    <div class="center sliding">Тестовая форма</div>
+    <div class="right">
+      <!-- Right link contains only icon - additional "icon-only" class--><a href="#" class="link icon-only open-panel"> <i class="icon icon-bars"></i></a>
+    </div>
+  </div>
+</div>
+<div class="pages">
+  <!-- Page, data-page contains page name-->
+  <div data-page="form" class="page">
+    <!-- Scrollable page content-->
+    <div class="page-content">
+      <div class="content-block-title">Пример формы</div>
+      <div class="list-block">
+        <ul>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">Имя</div>
+                <div class="item-input">
+                  <input type="text" placeholder="Ваше имя"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">E-mail</div>
+                <div class="item-input">
+                  <input type="email" placeholder="E-mail"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">URL</div>
+                <div class="item-input">
+                  <input type="url" placeholder="URL"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">Пароль</div>
+                <div class="item-input">
+                  <input type="password" placeholder="Пароль"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">Телефон</div>
+                <div class="item-input">
+                  <input type="tel" placeholder="Телефон"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">Ваш пол</div>
+                <div class="item-input">
+                  <select>
+                    <option>Мужчина</option>
+                    <option>Женщина</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">Дата</div>
+                <div class="item-input">
+                  <input type="date" placeholder="Дата рождения" value="2014-04-30"/>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">Свич</div>
+                <div class="item-input">
+                  <label class="label-switch">
+                    <input type="checkbox"/>
+                    <div class="checkbox"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="item-content">
+              <div class="item-inner">
+                <div class="item-title label">Диапазон</div>
+                <div class="item-input">
+                  <div class="range-slider">
+                    <input type="range" min="0" max="100" value="50" step="0.1"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="align-top">
+            <div class="item-content">
+              <div class="item-inner"> 
+                <div class="item-title label">Текст</div>
+                <div class="item-input">
+                  <textarea></textarea>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="content-block">
+        <div class="row">
+          <div class="col-50"><a href="#" class="button button-big button-fill color-red">Отмена</a></div>
+          <div class="col-50">
+            <input type="submit" value="Отправить" class="button button-big button-fill color-green"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-block-title">Группа радио кнопок</div>
+      <div class="list-block">
+        <ul>
+          <li>
+            <label class="label-radio item-content">
+              <input type="radio" name="ks-radio" value="Books" checked="checked"/>
+              <div class="item-inner">
+                <div class="item-title">Первая</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-radio item-content">
+              <input type="radio" name="ks-radio" value="Movies"/>
+              <div class="item-inner">
+                <div class="item-title">Вторая</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-radio item-content">
+              <input type="radio" name="ks-radio" value="Food"/>
+              <div class="item-inner">
+                <div class="item-title">Третья</div>
+              </div>
+            </label>
+          </li>
+          <li>
+            <label class="label-radio item-content">
+              <input type="radio" name="ks-radio" value="Drinks"/>
+              <div class="item-inner">
+                <div class="item-title">Четвертая</div>
+              </div>
+            </label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
